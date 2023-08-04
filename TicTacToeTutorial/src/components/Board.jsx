@@ -1,21 +1,23 @@
+function Square() {
+  return <button className="square">X</button>;
+}
 
-
-export default function Square(){
+export default function Board() {
   <>
-  <div className="board-row">
-   <button className="square">X</button>
-   <button className="square">X</button>
-   <button className="square">X</button>
-  </div>
-  <div className="board-row">
-   <button className="square">X</button>
-   <button className="square">X</button>
-   <button className="square">X</button>
-  </div>
-  <div className="board-row">
-   <button className="square">X</button>
-   <button className="square">X</button>
-   <button className="square">X</button>
-  </div>
-  </>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+  </>;
 }
