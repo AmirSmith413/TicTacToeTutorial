@@ -1,1 +1,18 @@
-
+.square {
+    margin-left: 5px;
+    background: #ffffff43;
+    border: 1px solid #999999a1;
+  
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 180px;
+    height: 180px;
+  
+    padding: 0;
+    text-align: center;
+    width: 180px;
+  }
+body{
+  display: flex;
+  justify-content: center;
+}
